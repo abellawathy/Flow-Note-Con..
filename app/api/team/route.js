@@ -1,0 +1,7 @@
+export async function GET() {
+  return Response.json([
+    { id: "1", name: "Andi", role: "Frontend Developer" },
+    { id: "2", name: "Sari", role: "UI/UX Designer" },
+    { id: "3", name: "Budi", role: "Backend Developer" }
+  ])
+}
