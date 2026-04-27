@@ -1,7 +1,7 @@
 import Link from 'next/link'
 
 export default async function TeamPage() {
-  const res = await fetch('/api/team', {
+  const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/team`, {
     cache: 'no-store'
   })
 
