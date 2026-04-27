@@ -1,7 +1,7 @@
 import Link from 'next/link'
 
 export default async function TeamPage() {
-  const res = await fetch('http://localhost:3000/api/team', {
+  const res = await fetch('/api/team', {
     cache: 'no-store'
   })
 
